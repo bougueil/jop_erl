@@ -1,0 +1,11 @@
+{application, jop, [
+	{description, "ets journal of operations"},
+	{vsn, "1.0.0"},
+	{modules, []},
+	{registered, []},
+	{applications, [
+		kernel,
+		stdlib
+	]},
+	{env, []}
+]}.
